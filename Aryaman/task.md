@@ -1,4 +1,4 @@
-#TASK-1
+# TASK-1
 Hello People!
 I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
 Here are my answers of Task-1.
@@ -33,12 +33,12 @@ Ans- The history of what you are making is important and that is what is known a
 	  -Dropbox will have the backup of your project
           -Creating your own GitHub repository is possible. 
 
-#TASK-2
+# TASK-2
 Hello People!
 I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
 Here are my answers of Task-2.
 QA. How git workflow works?
-Ans- 1. Working directory ó Workspace.
+Ans- 1. Working directory ‚Äî Workspace.
 2. Index ie stage
 3. Local Repository ie Head
 4. Remote Repository
@@ -57,20 +57,20 @@ Ans- Different stages of a git project:
 QC. Is it possible to do a git commit before git add. if you have made any changes. Explain why?
 Ans-  No, because according to the process
 first, we have to add the file and then commit changes to it
-After making the changes we will add them using ìgit add .î
+After making the changes we will add them using ‚Äúgit add .‚Äù
 and then we can commit it using (commit -a).
 QD. why is git diff used?
 Ans- git diff is used to track the difference between the changes made on a file. This command shows all the
-changes which are done. Diff command takes two inputs and reflects the differences between them. These inputs donít need to be filed only.
+changes which are done. Diff command takes two inputs and reflects the differences between them. These inputs don‚Äôt need to be filed only.
 It can be branches, working trees, commits, and more.
 QE. Can we leave a commit message as blank?
 Ans- Yes , we can leave a commit message blank.
-git commit -a ó allow-empty-message -m msg
+git commit -a ‚Äî allow-empty-message -m msg
 It is a valid request, commit can have no message at all.
 Link to GitHub repository :
 https://github.com/Aryaman07/git_series
 
-#Task-3.
+# Task-3.
 Q 1.What is meant by the term fork and clone?
 Ans- Forking: A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Request.
 Cloning: When you create a new repository on GitHub, it exists as a remote location where your project is stored. You can clone your repository to create a local copy on your computer so that you can sync between both the local and remote locations of the project. 
@@ -81,10 +81,10 @@ Ans-
 -People create different branches and work on different aspects of the same document.
 - One can merge a branch into another branch using Pull request.
 Q3. What is PR?
-Ans-Pull Request (PR) is a Github feature that allows users to collaborate better together. Usually in source control software there is a main branch that describes production?ó?in git it is the master branch. One can create a feature branch and make changes there, then issue a PR to the master branch for someone else to review, approve or reject the changes and merge to the master branch eventually. Discussing potential improvements is crucial to write and maintain a high quality repository.
+Ans-Pull Request (PR) is a Github feature that allows users to collaborate better together. Usually in source control software there is a main branch that describes production?‚Äî?in git it is the master branch. One can create a feature branch and make changes there, then issue a PR to the master branch for someone else to review, approve or reject the changes and merge to the master branch eventually. Discussing potential improvements is crucial to write and maintain a high quality repository.
 Q4.Can we delete the master branch if not why?
 Ans- Yes, we can delete master branch.
-we need to go to the GitHub page for our forked repository, and click on the ìSettingsî button.Click on the "Branches" tab on the left hand side. Thereís a ìDefault branchî dropdown list near the top of the screen.From there, select placeholder (where placeholder is the dummy name for your new default branch).Confirm that you want to change your default branch.enter the command: "git push origin :master".
+we need to go to the GitHub page for our forked repository, and click on the ‚ÄúSettings‚Äù button.Click on the "Branches" tab on the left hand side. There‚Äôs a ‚ÄúDefault branch‚Äù dropdown list near the top of the screen.From there, select placeholder (where placeholder is the dummy name for your new default branch).Confirm that you want to change your default branch.enter the command: "git push origin :master".
 Q5.How can we delete a branch?
 Ans- Branches ccan be deleted "Locally" and "remotely".
 Locally:
