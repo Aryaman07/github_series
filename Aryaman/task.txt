@@ -1,4 +1,4 @@
-TASK-1
+#TASK-1
 Hello People!
 I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
 Here are my answers of Task-1.
@@ -33,7 +33,7 @@ Ans- The history of what you are making is important and that is what is known a
 	  -Dropbox will have the backup of your project
           -Creating your own GitHub repository is possible. 
 
-TASK-2
+#TASK-2
 Hello People!
 I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
 Here are my answers of Task-2.
@@ -69,3 +69,30 @@ git commit -a — allow-empty-message -m msg
 It is a valid request, commit can have no message at all.
 Link to GitHub repository :
 https://github.com/Aryaman07/git_series
+
+#Task-3.
+Q 1.What is meant by the term fork and clone?
+Ans- Forking: A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. A forked repository differs from a clone in that a connection exists between your fork and the original repository itself. In this way, your fork acts as a bridge between the original repository and your personal copy where you can contribute back to the original project using Pull Request.
+Cloning: When you create a new repository on GitHub, it exists as a remote location where your project is stored. You can clone your repository to create a local copy on your computer so that you can sync between both the local and remote locations of the project. 
+Q 2. What are branches in GitHub?
+Ans-
+-The purpose of branch or branches is to work on the repository on multiple aspects at the same time.
+-To create a branch one can use "git checkout -b branchname". This command will create a new branch switch to it.
+-People create different branches and work on different aspects of the same document.
+- One can merge a branch into another branch using Pull request.
+Q3. What is PR?
+Ans-Pull Request (PR) is a Github feature that allows users to collaborate better together. Usually in source control software there is a main branch that describes production?—?in git it is the master branch. One can create a feature branch and make changes there, then issue a PR to the master branch for someone else to review, approve or reject the changes and merge to the master branch eventually. Discussing potential improvements is crucial to write and maintain a high quality repository.
+Q4.Can we delete the master branch if not why?
+Ans- Yes, we can delete master branch.
+we need to go to the GitHub page for our forked repository, and click on the “Settings” button.Click on the "Branches" tab on the left hand side. There’s a “Default branch” dropdown list near the top of the screen.From there, select placeholder (where placeholder is the dummy name for your new default branch).Confirm that you want to change your default branch.enter the command: "git push origin :master".
+Q5.How can we delete a branch?
+Ans- Branches ccan be deleted "Locally" and "remotely".
+Locally:
+Git will not let you delete the branch you are currently on so you must make sure to checkout a branch that you are NOT deleting. For example: git checkout master
+Delete a branch with git branch -d <branch>.
+The -d option will delete the branch only if it has already been pushed and merged with the remote branch. Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
+The branch is now deleted locally.
+Remotely:
+we can use this command to delete a branch remotely:
+ git push <remote> --delete <branch>.
+The branch is now deleted remotely.
