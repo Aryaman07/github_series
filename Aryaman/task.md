@@ -1,7 +1,7 @@
 # TASK-1
-Hello People!
-I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
-Here are my answers of Task-1.
+## Hello People!
+### I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
+#### Here are my answers of Task-1.
 Q1. What do you mean by git and GitHub?
 Ans- Git- Created by Linux Torvald (Same person who created Linux Kernel)
          Git is the actual version control software. This the actual application.
@@ -34,9 +34,9 @@ Ans- The history of what you are making is important and that is what is known a
           -Creating your own GitHub repository is possible. 
 
 # TASK-2
-Hello People!
-I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
-Here are my answers of Task-2.
+## Hello People!
+### I am Aryaman Ranjan, pursuing B.Tech (4th-year student) from DIT University.
+#### Here are my answers of Task-2.
 QA. How git workflow works?
 Ans- 1. Working directory — Workspace.
 2. Index ie stage
